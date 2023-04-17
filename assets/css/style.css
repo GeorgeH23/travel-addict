@@ -176,3 +176,9 @@ body, html{
   margin: 10px;
   text-decoration: none;
 }
+
+#footer-left, #footer-center, #footer-right {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
