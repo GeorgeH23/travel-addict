@@ -60,3 +60,15 @@ body, html{
 #logo span {
   color: #20A3A3;
 }
+
+/* SECTION 1 */
+#landing-img {
+  height: 700px;
+  width: 100%;
+  background: url(../images/landing-img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 5px 5px rgba(58, 47, 47, 0.7);
+  margin-bottom: 100px; /*for distance between sections*/
+}
