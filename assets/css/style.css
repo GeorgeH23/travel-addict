@@ -125,3 +125,28 @@ body, html{
   margin-left: 40px;
   font-size: 16px;
 }
+
+/* FOOTER */
+.footer-body {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+#footer-left {
+  float: left;
+  text-align: left;
+}
+
+#footer-center {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#footer-right {
+  margin-right: 30px;
+  float: right;
+  text-align: left;
+}
