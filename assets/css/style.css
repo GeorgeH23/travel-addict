@@ -132,6 +132,9 @@ body, html{
   text-align: center;
   display: inline-block;
   padding-top: 10px;
+
+  background-color: #ffffff;
+  box-shadow: 10px 10px 5px 12px rgba(58, 47, 47, 0.7);
 }
 
 #footer-left {
