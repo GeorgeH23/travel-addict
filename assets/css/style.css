@@ -15,3 +15,16 @@ body, html{
 #header-color{
   background-color: #a32020;
 }
+
+/* logo style */
+#logo {
+  font-family: Lobster;
+  letter-spacing: 5px;
+  float: left;
+  margin-left: 30px;
+  color: #f7e2e2;
+}
+
+#logo span {
+  color: #20A3A3;
+}
