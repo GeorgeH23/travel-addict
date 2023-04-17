@@ -215,7 +215,7 @@ body, html{
   margin-top: 10px;
   text-align: left;
   color: black;
-  margin-left: 6px;
+  margin-left: 5px;
 }
 
 #card-text a {
@@ -241,4 +241,21 @@ body, html{
 #card-text p {
   color: black;
   font-size: 15px;
-} 
+}
+
+#card-text button {
+  background-color: #20A3A3;
+  color: #f7e2e2;
+  font-size: 12px;
+  float: right;
+  margin-right: 5px;
+  margin-bottom: 10px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
+}
