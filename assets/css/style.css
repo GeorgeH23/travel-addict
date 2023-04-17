@@ -91,3 +91,20 @@ body, html{
 
   position: absolute;
 }
+
+/* SECTION 2 */
+/*Landing cards */
+.section-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+#card {
+  width: 585px;
+  margin: 20px;
+  border: 1px solid #f7e2e2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
+}
