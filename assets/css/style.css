@@ -215,7 +215,7 @@ body, html{
   margin-top: 10px;
   text-align: left;
   color: black;
-  margin-left: 5px;
+  margin-left: 6px;
 }
 
 #card-text a {
@@ -229,3 +229,16 @@ body, html{
   color: black;
   font-size: 12px;
 }
+
+#card-text i {
+  color: #a32020;
+  text-decoration: none;
+  text-align: left;
+  font-size: 15px;
+  margin: 2px;
+}
+
+#card-text p {
+  color: black;
+  font-size: 15px;
+} 
