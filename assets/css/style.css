@@ -33,6 +33,21 @@ body, html{
   margin-right: 30px;
 }
 
+#navigation a {
+  text-decoration: none;
+  text-align: center;
+  color: #f7e2e2;
+}
+
+#navigation a:hover {
+  font-weight: bold;
+  color: #20A3A3;
+}
+
+.active {
+  border-bottom: 2px solid #20A3A3;
+}
+
 /* logo style */
 #logo {
   font-family: Lobster;
