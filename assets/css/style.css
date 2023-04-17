@@ -210,3 +210,10 @@ body, html{
   border-radius: 5px 5px 0 0;
   display: flex;
 }
+
+#card-text {
+  margin-top: 10px;
+  text-align: left;
+  color: black;
+  margin-left: 5px;
+}
