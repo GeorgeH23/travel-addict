@@ -156,6 +156,14 @@ body, html{
   text-align: left;
 }
 
+#footer-center i,p {
+  display: inline;
+}
+
+#footer-center p, #footer-right p {
+  font-weight: bold;
+}
+
 #footer-right {
   margin-right: 30px;
   float: right;
