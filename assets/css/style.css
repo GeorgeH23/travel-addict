@@ -217,3 +217,15 @@ body, html{
   color: black;
   margin-left: 5px;
 }
+
+#card-text a {
+  color: black;
+  text-decoration: none;
+}
+
+#card-text span {
+  text-decoration: none;
+  text-align: left;
+  color: black;
+  font-size: 12px;
+}
