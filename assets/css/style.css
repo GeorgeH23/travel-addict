@@ -161,3 +161,10 @@ body, html{
   float: right;
   text-align: left;
 }
+
+#footer-right a {
+  font-size: 50px;
+  color: #a32020;
+  margin: 10px;
+  text-decoration: none;
+}
