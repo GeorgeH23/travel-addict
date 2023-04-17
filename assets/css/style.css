@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 * {
   margin: 0;
@@ -14,6 +15,21 @@ body, html{
 /* NAVBAR */
 #header-color{
   background-color: #a32020;
+}
+
+#navigation {
+  font-size: 110%;
+  letter-spacing: 3px;
+}
+
+#navigation, #logo {
+  line-height: 75px;
+}
+
+#navigation li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
 }
 
 /* logo style */
