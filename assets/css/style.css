@@ -10,3 +10,8 @@ body, html{
   font-family: Merriweather, serif;
   font-weight: 300;
 }
+
+/* NAVBAR */
+#header-color{
+  background-color: #a32020;
+}
