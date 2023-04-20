@@ -272,3 +272,10 @@ body, html{
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
 }
+
+/* RESPONSIVE SCREEN */
+@media screen and (min-width: 1024px) {
+  #landing-img {
+    height: 750px;
+  }
+}
