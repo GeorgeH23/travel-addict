@@ -36,3 +36,6 @@ https://www.trivago.co.th/en-TH/oar/easyhotel-dublin-city-centre?search=100-3077
 
 Czech Republic:
 https://www.lodging-world.com/ez/hotels/alfons-boutique-hotel-in-prague-93475515
+
+Parallax:
+https://wallpaperaccess.com/airplane
