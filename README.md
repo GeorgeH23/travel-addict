@@ -39,3 +39,8 @@ https://www.lodging-world.com/ez/hotels/alfons-boutique-hotel-in-prague-93475515
 
 Parallax:
 https://wallpaperaccess.com/airplane
+
+https://wallpaperaccess.com/1080p-mountain
+https://wallpaperaccess.com/beach-flower
+https://wallpaperaccess.com/beach-chair
+https://wallpaperaccess.com/building-desktop
