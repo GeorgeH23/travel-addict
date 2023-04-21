@@ -12,7 +12,7 @@
 <body>
   <header id="header-color">
     <a href="landing.html"> 
-      <h1 id="logo"><span>T</span>ravel <span>A</span>ddict</h1>
+      <h1 class="logo"><span>T</span>ravel <span>A</span>ddict</h1>
     </a>
     <nav>
       <ul id="navigation">
@@ -22,12 +22,42 @@
       </ul>
     </nav>
   </header>
+  <section class="container">
+    <div class="form-container">
+      <form id="form-container-left">
+        <h2> Contact Form</h2>
+        <fieldset>
+          <legend>User Details</legend>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="name" required>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="name" required>
+        </fieldset>
+        <fieldset>
+          <legend>User Contact</legend>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" required>
   
+          <label for="phone">Phone No.</label>
+          <input type="text" id="phone" name="phone" required>
+        </fieldset>
+        <fieldset>
+          <legend>Message <span>(limit of characters: 500)</span></legend>
+          <textarea id="message" name="message" rows="5" maxlength="500" required></textarea>
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+      <div class="iframe-container" id="iframe-container-right">
+        <iframe src="https://www.google.com/maps"></iframe>
+      </div>
+    </div>
+  </section>
   <footer class="footer-body">
     <div id="footer-left">
-      <h1 id="logo"><span>T</span>ravel <span>A</span>ddict</h1><br>
+      <h1 class="logo"><span>T</span>ravel <span>A</span>ddict</h1><br>
       <a href="landing.html">Home<span> | </span></a>
-      <a href="offers.html">Offers<spanb> |</spanb></a>
+      <a href="offers.html">Offers<span> |</span></a>
       <a href="contact.html">Contact</a>
     </div>
     <div id="footer-center">
