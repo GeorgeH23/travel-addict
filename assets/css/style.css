@@ -106,6 +106,7 @@ body, html{
 .card {
   width: 585px;
   margin: 20px;
+  text-align: center;
   border: 1px solid #f7e2e2;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
@@ -117,14 +118,12 @@ body, html{
   border-radius: 5px 5px 0 0;
 }
 
-.card h1 {
-  margin-left: 40px;
+.card h2 {
   font-size: 24px;
   font-weight: bold;
 }
 
 .card p {
-  margin-left: 40px;
   font-size: 16px;
 }
 
