@@ -162,6 +162,14 @@ main {
   color: black;
 }
 
+#footer-left a span {
+  color: black;
+}
+
+#footer-left a:hover {
+  color: #20A3A3;
+}
+
 #footer-center {
   display: inline-block;
   margin: 0 auto;
@@ -187,6 +195,10 @@ main {
   color: #a32020;
   margin: 10px;
   text-decoration: none;
+}
+
+#footer-right a:hover{
+  color: #20A3A3;
 }
 
 #footer-left, #footer-center, #footer-right {
