@@ -126,6 +126,15 @@ main {
   width: 100%;
   height: 350px;
   border-radius: 5px 5px 0 0;
+  /* zoom effect for the cards of the loading page */
+  animation-name: card-img-zoom;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes card-img-zoom {
+  from {transform: scale(0.8);}
+  to {transform: scale(1);}
 }
 
 .card h2 {
