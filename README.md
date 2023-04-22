@@ -44,3 +44,15 @@ https://wallpaperaccess.com/1080p-mountain
 https://wallpaperaccess.com/beach-flower
 https://wallpaperaccess.com/beach-chair
 https://wallpaperaccess.com/building-desktop
+
+article from landing page:
+https://www.123helpme.com/essay/The-Perfect-European-Vacation-224696
+
+iframe for city:
+https://www.youtube.com/watch?v=lao2MP2Esi8
+
+iframe for sea:
+https://www.youtube.com/watch?v=ZIoIQmdVEHY
+
+iframe for mountain:
+https://www.youtube.com/embed/-cqZjLVlkM8?start=21
