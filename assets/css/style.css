@@ -148,11 +148,31 @@ main {
   font-size: 16px;
 }
 
+/* SECTION 3 */
 .separator {
   width: 100%;
   border: 1px solid rgba(58, 47, 47, 0.7);
   box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
-  margin-bottom: 100px;
+  margin-bottom: 70px;
+}
+
+.section-card article {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 70px;
+}
+
+.section-card h2 {
+  margin-bottom: 10px;
+}
+
+.iframe-video {
+  margin: 20px;
+  text-align: center;
 }
 
 /* FOOTER */
