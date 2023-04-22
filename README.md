@@ -56,3 +56,8 @@ https://www.youtube.com/watch?v=ZIoIQmdVEHY
 
 iframe for mountain:
 https://www.youtube.com/embed/-cqZjLVlkM8?start=21
+
+TOOLS
+
+reduce image size
+https://compressjpeg.com/
