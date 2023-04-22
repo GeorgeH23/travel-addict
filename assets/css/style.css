@@ -247,7 +247,7 @@ main {
 
 
 /* OFFERS PAGE */
-.mountain-section, .sea-section, .city-section{
+#mountain-section, #sea-section, #city-section{
   width: 90%;
   margin: auto;
   position: relative;
