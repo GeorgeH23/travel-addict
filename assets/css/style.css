@@ -102,6 +102,15 @@ main {
   box-shadow: 10px 10px 5px 12px rgba(58, 47, 47, 0.7);
 
   position: absolute;
+
+  animation-name: card-img-text-zoom;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes card-img-text-zoom {
+  from {transform: scale(0.5);}
+  to {transform: scale(1);}
 }
 
 /* SECTION 2 */
@@ -110,7 +119,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .card {
@@ -127,14 +136,7 @@ main {
   height: 350px;
   border-radius: 5px 5px 0 0;
   /* zoom effect for the cards of the loading page */
-  animation-name: card-img-zoom;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
 
-@keyframes card-img-zoom {
-  from {transform: scale(0.8);}
-  to {transform: scale(1);}
 }
 
 .card h2 {
@@ -144,6 +146,13 @@ main {
 
 .card p {
   font-size: 16px;
+}
+
+.separator {
+  width: 100%;
+  border: 1px solid rgba(58, 47, 47, 0.7);
+  box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
+  margin-bottom: 100px;
 }
 
 /* FOOTER */
