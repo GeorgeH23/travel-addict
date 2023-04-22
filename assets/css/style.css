@@ -12,6 +12,16 @@ body, html{
   font-weight: 300;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
 /* NAVBAR */
 #header-color{
   background-color: #a32020;
@@ -129,10 +139,6 @@ body, html{
 
 /* FOOTER */
 .footer-body {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   text-align: center;
   display: inline-block;
   padding-top: 10px;
