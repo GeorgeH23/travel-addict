@@ -375,14 +375,14 @@ main {
 #form-container-left {
   float: left;
   border-radius: 5px;
-  background-color: rgba(56, 45, 45, 0.8);
+  background-color: rgba(56, 45, 45, 0.95);
   box-shadow: 0 5px 5px rgba(58, 47, 47, 0.7);
 }
 
 #iframe-container-right {
   float: right;
   border-radius: 5px;
-  background-color: rgba(56, 45, 45, 0.8);
+  background-color: rgba(56, 45, 45, 0.95);
   box-shadow: 0 5px 5px rgba(58, 47, 47, 0.7);
 }
 
