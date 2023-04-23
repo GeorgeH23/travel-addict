@@ -377,28 +377,23 @@ main {
   justify-content: center;
 }
 
-#form-container-left {
-  float: left;
+.form-container-cards {
+  width: 100%;
+  max-width: 450px;
   border-radius: 5px;
+  padding: 20px;
   background-color: rgba(56, 45, 45, 0.95);
   box-shadow: 0 5px 5px rgba(58, 47, 47, 0.7);
+  margin-bottom: 20px;
+}
+
+#form-container-left {
+  float: left;
+  margin-right: 10px;
 }
 
 #iframe-container-right {
   float: right;
-  width: 100%;
-  max-width: 450px;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: rgba(56, 45, 45, 0.95);
-  box-shadow: 0 5px 5px rgba(58, 47, 47, 0.7);
-}
-
-form {
-  width: 100%;
-  max-width: 450px;
-  padding: 20px;
-  margin-right: 40px;
 }
 
 form h2 {
