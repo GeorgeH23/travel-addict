@@ -386,6 +386,9 @@ main {
 
 #iframe-container-right {
   float: right;
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
   border-radius: 5px;
   background-color: rgba(56, 45, 45, 0.95);
   box-shadow: 0 5px 5px rgba(58, 47, 47, 0.7);
@@ -427,8 +430,10 @@ label {
 
 input, textarea {
   display: block;
+  width: 98%;
   margin-bottom: 10px;
-  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
   padding: 5px;
   border-radius: 2px;
   background-color: rgba(237, 243, 243, 0.8);
