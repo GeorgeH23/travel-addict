@@ -453,6 +453,12 @@ p {
     float: right;
 }
 
+iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
 form h2 {
     color: #f7e2e2;
     margin-bottom: 20px;
