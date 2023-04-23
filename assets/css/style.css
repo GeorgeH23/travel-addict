@@ -170,9 +170,14 @@ main {
   margin-bottom: 10px;
 }
 
-.iframe-video {
-  margin: 20px;
-  text-align: center;
+.landing-iframe {
+    width: 50%;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #f7e2e2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
 }
 
 /* FOOTER */
@@ -442,18 +447,14 @@ input[type="submit"]:hover {
   background-color: #a32020;
 }
 
-.iframe-container {
-  width: 100%;
-  max-width: 450px;
-  padding: 20px;
-  background-color: #f7e2e2;
-}
-
-
 /* RESPONSIVE SCREEN FOR LANDING */
 @media screen and (min-width: 1024px) {
   #landing-img {
     height: 750px;
+  }
+
+  .landing-iframe {
+    width: 585px;
   }
 }
 
