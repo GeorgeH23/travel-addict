@@ -61,3 +61,6 @@ TOOLS
 
 reduce image size
 https://compressjpeg.com/
+
+iframe map link:
+https://www.embed-map.com/
