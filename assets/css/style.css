@@ -162,7 +162,6 @@ main {
 
 /* VIDEO CARDS (section 3) */
 .separator {
-    width: 100%;
     border: 1px solid rgba(58, 47, 47, 0.7);
     box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
     margin-bottom: 70px;
