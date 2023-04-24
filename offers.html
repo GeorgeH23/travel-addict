@@ -55,7 +55,7 @@
                             <i class="fa fa-wine-glass"></i>
                             <i class="fa fa-spa"></i>
                             <p>6 nights</p><br>
-                            <button onclick="document.getElementById('id').style.display='block'">BOOK</button>
+                            <button onclick="showModal()">BOOK</button>
                         </aside>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                             <i class="fa fa-wine-glass"></i>
                             <i class="fa fa-spa"></i>
                             <p>7 nights</p><br>
-                            <button onclick="document.getElementById('id').style.display='block'">BOOK</button>
+                            <button onclick="showModal()">BOOK</button>
                         </aside>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                             <i class="fa fa-wine-glass"></i>
                             <i class="fa fa-spa"></i>
                             <p>3 nights</p><br>
-                            <button onclick="document.getElementById('id').style.display='block'">BOOK</button>
+                            <button onclick="showModal()">BOOK</button>
                         </aside>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                             <i class="fa fa-wine-glass"></i>
                             <i class="fa fa-spa"></i>
                             <p>6 nights</p><br>
-                            <button onclick="document.getElementById('id').style.display='block'">BOOK</button>
+                            <button onclick="showModal()">BOOK</button>
                         </aside>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                             <i class="fa fa-wine-glass"></i>
                             <i class="fa fa-spa"></i>
                             <p>7 nights</p><br>
-                            <button onclick="document.getElementById('id').style.display='block'">BOOK</button>
+                            <button onclick="showModal()">BOOK</button>
                         </aside>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
                             <i class="fa fa-wine-glass"></i>
                             <i class="fa fa-spa"></i>
                             <p>5 nights</p><br>
-                            <button onclick="document.getElementById('id').style.display='block'">BOOK</button>
+                            <button onclick="showModal()">BOOK</button>
                         </aside>
                     </div>
                 </div>
@@ -211,7 +211,7 @@
                             <i class="fa fa-wine-glass"></i>
                             <i class="fa fa-spa"></i>
                             <p>8 nights</p><br>
-                            <button onclick="document.getElementById('id').style.display='block'">BOOK</button>
+                            <button onclick="showModal()">BOOK</button>
                         </aside>
                     </div>
                 </div>
@@ -235,7 +235,7 @@
                             <i class="fa fa-wine-glass"></i>
                             <i class="fa fa-spa"></i>
                             <p>3 nights</p><br>
-                            <button onclick="document.getElementById('id').style.display='block'">BOOK</button>
+                            <button onclick="showModal()">BOOK</button>
                         </aside>
                     </div>
                 </div>
@@ -258,7 +258,7 @@
                             <i class="fa fa-wine-glass"></i>
                             <i class="fa fa-spa"></i>
                             <p>7 nights</p><br>
-                            <button onclick="document.getElementById('id').style.display='block'">BOOK</button>
+                            <button onclick="showModal()">BOOK</button>
                         </aside>
                     </div>
                 </div>
@@ -267,25 +267,21 @@
     </main>
 
     <!-- Modal dialog for booking offers -->
-    <dialog id="id" class="modal-dialog">
-        <div class="modal-content-animation">
-
-            <div class="modal-center"><br>
-                <span onclick="document.getElementById('id').style.display='none'" class="close-modal"
-                    title="Close Modal">&times;</span>
-                <form class="form-container-cards">
-                    <label><b>Full Name</b></label>
-                    <input type="text" placeholder="Full Name" name="fname" required>
-                    <label><b>Email</b></label>
-                    <input type="email" placeholder="email@gmail.com" name="email" required>
-                    <label><b>Phone No.</b></label>
-                    <input type="text" name="phoneno" required><br>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-
+    <div class="modal-container animate-zoom">
+        <div class="modal"><br>
+            <span onclick="hideModal()" class="close-modal"
+                title="Close Modal">&times;</span><br>
+            <form>
+                <label><b>Full Name</b></label>
+                <input type="text" placeholder="Full Name" name="fname" required>
+                <label><b>Email</b></label>
+                <input type="email" placeholder="email@gmail.com" name="email" required>
+                <label><b>Phone No.</b></label>
+                <input type="text" name="phoneno" required><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
-    </dialog>
+    </div>
 
     <!-- Footer bar -->
     <footer class="footer-body">
@@ -336,6 +332,25 @@
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/6fbe53beed.js" crossorigin="anonymous"></script>
+
+    <!-- script for modal -->
+    <!-- Script copied from:
+    https://www.tutorialspoint.com/how-to-align-the-modal-content-box-to-the-center-of-any-screen?fbclid=IwAR0B5UzubrLahMMh2J2dPcV9jevHQ9C2cuEL2E28yHhAm4tnft9KEO8RM8E -->
+    <script>
+        window.onresize = function() {
+           var modalContainer = document.getElementsByClassName("modal-container")[0];
+           modalContainer.style.height = window.innerHeight + "px";
+           modalContainer.style.width = window.innerWidth + "px";
+        }
+        function showModal(){
+           var modalContainer = document.getElementsByClassName("modal-container")[0];
+           modalContainer.style.display = "flex";
+        }
+        function hideModal(){
+           var modalContainer = document.getElementsByClassName("modal-container")[0];
+           modalContainer.style.display = "none";
+        }
+     </script>
 </body>
 
 </html>

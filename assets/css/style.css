@@ -383,36 +383,34 @@ p {
     box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
 }
 
-.modal-dialog {
-    position: absolute;
-    z-index: 3;
+/* Inspired from:
+https://www.tutorialspoint.com/how-to-align-the-modal-content-box-to-the-center-of-any-screen?fbclid=IwAR0B5UzubrLahMMh2J2dPcV9jevHQ9C2cuEL2E28yHhAm4tnft9KEO8RM8E */
+.modal-container {
     display: none;
-    padding-top: 100px;
+    align-items: center;
     justify-content: center;
-    top: 60%;
-    left: 50%;
-    right: 50%;
-    width: 30%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4)
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    
 }
 
-.modal-content-animation {
-    position: relative;
-    width: 50%;
-    margin: auto;
-    position: relative;
-    justify-content: center;
+/* Inspired from:
+https://www.tutorialspoint.com/how-to-align-the-modal-content-box-to-the-center-of-any-screen?fbclid=IwAR0B5UzubrLahMMh2J2dPcV9jevHQ9C2cuEL2E28yHhAm4tnft9KEO8RM8E */
+.modal {
     background-color: rgba(56, 45, 45, 0.95);
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
-    animation: animatezoom 0.6s;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    height: 350px;
+    box-shadow: 0px 0px 10px #242323;
 }
 
-.modal-center {
-    text-align: center !important;
-}
-
+/* Inspired from:
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_login */
 .close-modal {
     float: right;
     margin-right: 5px;
@@ -425,6 +423,23 @@ p {
     white-space: nowrap;
 }
 
+/* Copied "animatezoom" animation from:
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal4 */
+.animate-zoom {
+    animation: animatezoom 0.6s
+}
+
+/* Copied "animatezoom" animation from:
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal4 */
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
 
 /* ---------------------------------------- CONTACT PAGE ---------------------------------------- */
 .container {
