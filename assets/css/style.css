@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+/* Universal selector for all elements */
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +24,8 @@ main {
     flex-grow: 1;
 }
 
+
+/* ---------------------------------------- LANDING PAGE ---------------------------------------- */
 /* NAVBAR */
 #header-color {
     background-color: #a32020;
@@ -60,7 +63,7 @@ main {
     border-bottom: 2px solid #20A3A3;
 }
 
-/* logo style */
+/* Logo style */
 .logo {
     font-family: Lobster;
     letter-spacing: 5px;
@@ -73,7 +76,7 @@ main {
     color: #20A3A3;
 }
 
-/* SECTION 1 */
+/* HEADER IMAGE */
 #landing-img {
     position: relative;
     height: 700px;
@@ -86,10 +89,10 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0px 5px 5px rgba(58, 47, 47, 0.7);
-    margin-bottom: 100px;
-    /*for distance between sections*/
+    margin-bottom: 100px; /*for distance between sections*/ 
 }
 
+/* Intro text */
 #landing-img-text {
     font-size: 150%;
     font-family: Lobster;
@@ -111,6 +114,7 @@ main {
     animation-fill-mode: forwards;
 }
 
+/* Animation for Intro text */
 @keyframes card-img-text-zoom {
     from {
         transform: scale(0.5);
@@ -121,7 +125,7 @@ main {
     }
 }
 
-/* SECTION 2 */
+/* MAIN OFFERINGS CATEGORIS (section 2) */
 /*Landing cards */
 .section-card {
     display: flex;
@@ -156,7 +160,7 @@ main {
     font-size: 16px;
 }
 
-/* SECTION 3 */
+/* VIDEO CARDS (section 3) */
 .separator {
     width: 100%;
     border: 1px solid rgba(58, 47, 47, 0.7);
@@ -197,6 +201,7 @@ main {
     box-shadow: 10px 10px 5px 12px rgba(58, 47, 47, 0.7);
 }
 
+/* Left side of the Footer */
 #footer-left {
     float: left;
     text-align: left;
@@ -221,6 +226,7 @@ main {
     color: #20A3A3;
 }
 
+/* Center of the Footer */
 #footer-center {
     display: inline-block;
     margin: 0 auto;
@@ -237,6 +243,7 @@ p {
     font-weight: bold;
 }
 
+/* Right side of the footer */
 #footer-right {
     margin-right: 30px;
     float: right;
@@ -263,7 +270,8 @@ p {
 }
 
 
-/* OFFERS PAGE */
+/* ---------------------------------------- OFFERS PAGE ---------------------------------------- */
+/* Mountain, Sea and City containers */
 #mountain-section,
 #sea-section,
 #city-section {
@@ -274,13 +282,13 @@ p {
     border-radius: 5px;
     box-shadow: 0 1px 5px rgba(58, 47, 47, 0.7);
     background: url(../images/parallax-offers-1.jpg);
-    background-attachment: fixed;
-    /*parallax efect*/
+    background-attachment: fixed;  /*parallax efect*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* text from outside of the sections */
 .section-center-text {
     margin-top: 70px;
     margin-bottom: 25px;
@@ -299,6 +307,7 @@ p {
     margin-bottom: 40px;
 }
 
+/* Offer card */
 .card-offers {
     width: 300px;
     height: 100%;
@@ -316,6 +325,7 @@ p {
     display: flex;
 }
 
+/* The border line */
 .card-aside {
     margin-top: 20px;
     border-top: 1px solid #333;
@@ -355,6 +365,7 @@ p {
     font-size: 15px;
 }
 
+/* Book button */
 .card-offers-text button {
     background-color: #20A3A3;
     color: #f7e2e2;
@@ -414,7 +425,8 @@ p {
     white-space: nowrap;
 }
 
-/* CONTACT PAGE */
+
+/* ---------------------------------------- CONTACT PAGE ---------------------------------------- */
 .container {
     width: 100%;
     height: 100%;
@@ -511,23 +523,29 @@ input[type="submit"]:hover {
     background-color: #a32020;
 }
 
-/* RESPONSIVE SCREEN FOR LANDING */
+
+/* ---------------------------------------- RESPONSIVE SCREEN ---------------------------------------- */
+/* For very large screen */
 @media screen and (min-width: 1024px) {
+    /* Header image from Landing page */
     #landing-img {
         height: 750px;
     }
 
+    /* Videos from Landing Page */
     .landing-iframe {
         width: 585px;
     }
 }
 
+/* For medium to large screen */
 @media screen and (min-width: 647px) and (max-width:1023px) {
     #landing-img {
         height: 600px;
         margin-bottom: 80px;
     }
 
+    /* The cards from Landing Page */
     .section-card {
         margin-bottom: 80px;
     }
@@ -536,6 +554,7 @@ input[type="submit"]:hover {
         width: 685px;
     }
 
+    /* The Footer */
     #footer-center,
     #footer-right {
         font-size: 12px;
@@ -555,12 +574,14 @@ input[type="submit"]:hover {
     }
 }
 
+/* For small screen */
 @media screen and (max-width: 646px) {
     #landing-img {
         height: 560px;
         margin-bottom: 60px;
     }
 
+    /* Navigation list */
     #navigation {
         font-size: 72%;
     }
@@ -571,14 +592,17 @@ input[type="submit"]:hover {
         margin-left: 20px;
     }
 
+    /* The intro text from Landing Page */
     #landing-img-text {
         font-size: 120%;
     }
 
+    /* The cards from Landing Page */
     .section-card {
         margin-bottom: 60px;
     }
 
+    /* The Footer */
     .footer-body {
         display: flex;
         flex-direction: column;
@@ -594,7 +618,9 @@ input[type="submit"]:hover {
     }
 }
 
+/* For very small  screen*/
 @media screen and (min-width: 100px) and (max-width: 412px) {
+    /* Offers cards from Offers Page */
     .card-offers img {
         height: 100px;
     }
