@@ -22,6 +22,8 @@ body {
 
 main {
     flex-grow: 1;
+    max-width: 2000px;
+    margin: auto;
 }
 
 
@@ -89,7 +91,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0px 5px 5px rgba(58, 47, 47, 0.7);
-    margin-bottom: 100px; /*for distance between sections*/ 
+    margin-bottom: 100px; /*for distance between sections*/
 }
 
 /* Intro text */
@@ -147,42 +149,52 @@ main {
     width: 100%;
     height: 350px;
     border-radius: 5px 5px 0 0;
-    /* zoom effect for the cards of the loading page */
-
 }
 
 .card h2 {
     font-size: 24px;
     font-weight: bold;
+    margin-top: 5px;
 }
 
 .card p {
-    font-size: 16px;
+    letter-spacing: 1px;
+    font-size: 19px;
+    margin: 10px;
 }
 
 /* VIDEO CARDS (section 3) */
 .separator {
+    max-width: 2000px;
     border: 1px solid rgba(58, 47, 47, 0.7);
     box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
     margin-bottom: 70px;
+    margin: auto;
 }
 
 .section-card article {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 70px;
     margin-bottom: 70px;
+    letter-spacing: 1px;
+    font-size: 16px;
 }
 
-.section-card h2 {
+.section-card article header h2 {
     margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.section-card article p{
+    letter-spacing: 1px;
+    font-size: 19px;
+    text-align: justify;
+    text-indent: 40px;
 }
 
 .landing-iframe {
-    width: 50%;
+    width: 585px;
     height: 300px;
     margin: 20px;
     text-align: center;
@@ -232,8 +244,7 @@ main {
     text-align: left;
 }
 
-#footer-center i,
-p {
+#footer-center i, p {
     display: inline;
 }
 
@@ -274,7 +285,7 @@ p {
 #mountain-section,
 #sea-section,
 #city-section {
-    width: 80%;
+    width: 100%;
     margin: auto;
     position: relative;
     background-color: #f7e2e2;
@@ -303,6 +314,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 40px;
 }
 
@@ -332,7 +345,6 @@ p {
 
 .card-offers-text {
     padding: 20px;
-    margin-top: 10px;
     text-align: left;
     color: black;
     margin-left: 5px;
@@ -350,18 +362,17 @@ p {
     font-size: 12px;
 }
 
+.card-offers-text p {
+    color: black;
+    font-size: 15px;
+}
+
 .card-offers-text i {
     color: #a32020;
     text-decoration: none;
     text-align: left;
     font-size: 15px;
     margin: 2px;
-}
-
-.card-offers-text p {
-    margin-top: 20px;
-    color: black;
-    font-size: 15px;
 }
 
 /* Book button */
@@ -380,6 +391,10 @@ p {
 
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(58, 47, 47, 0.7);
+}
+
+.card-offers-text button:hover {
+    background-color: #a32020;
 }
 
 /* Inspired from:
@@ -450,6 +465,8 @@ https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal4 */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .form-container {
@@ -540,7 +557,7 @@ input[type="submit"]:hover {
 
 /* ---------------------------------------- RESPONSIVE SCREEN ---------------------------------------- */
 /* For very large screen */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width:1800px){
     /* Header image from Landing page */
     #landing-img {
         height: 750px;
@@ -549,6 +566,17 @@ input[type="submit"]:hover {
     /* Videos from Landing Page */
     .landing-iframe {
         width: 585px;
+    }
+
+    #mountain-section,
+    #sea-section,
+    #city-section {
+        width: 90%;
+    }
+
+    .cards-offers {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -562,10 +590,6 @@ input[type="submit"]:hover {
     /* The cards from Landing Page */
     .section-card {
         margin-bottom: 80px;
-    }
-
-    .card {
-        width: 685px;
     }
 
     /* The Footer */
@@ -586,10 +610,28 @@ input[type="submit"]:hover {
     #footer-right a {
         font-size: 20px;
     }
+
+    #mountain-section,
+    #sea-section,
+    #city-section {
+        width: 70%;
+    }
+
+    .cards-offers {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 /* For small screen */
 @media screen and (max-width: 646px) {
+
+    main {
+        flex-grow: 1;
+        max-width: 2000px;
+        margin: 0;
+    }
+
     #landing-img {
         height: 560px;
         margin-bottom: 60px;
@@ -630,10 +672,31 @@ input[type="submit"]:hover {
     #footer-right {
         margin-bottom: 20px;
     }
+
+    #mountain-section,
+    #sea-section,
+    #city-section {
+        width: 70%;
+    }
+
+    .cards-offers {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .form-container {
+        padding: 40px;
+    }
 }
 
 /* For very small  screen*/
-@media screen and (min-width: 100px) and (max-width: 412px) {
+@media screen and (min-width: 300px) and (max-width: 460px) {
+    main {
+        flex-grow: 1;
+        max-width: 2000px;
+        margin: 0;
+    }
+
     /* Offers cards from Offers Page */
     .card-offers img {
         height: 100px;
@@ -662,5 +725,33 @@ input[type="submit"]:hover {
 
     .card-offers-text button {
         margin-top: 10px;
+    }
+
+    /* Offer sections from Offers Page*/
+    #mountain-section,
+    #sea-section,
+    #city-section {
+        width: 90%;
+        max-width: 390px;
+    }
+
+    .section-center-text {
+        margin-top: 40px;
+        font-size: 13px;
+    }
+
+    .cards-offers {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Contact container from Contact Page */
+    .container {
+        width: 100%;
+        max-width: 460px;
+    }
+
+    .form-container {
+        padding: 20px;
     }
 }
