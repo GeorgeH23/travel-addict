@@ -95,6 +95,7 @@ main {
 }
 
 /* Intro text */
+/* Inspired from: Love Running - Essentials Project */
 #landing-img-text {
     font-size: 150%;
     font-family: Lobster;
@@ -138,6 +139,7 @@ main {
     margin-bottom: 100px;
 }
 
+/* Inspired from: https://www.w3schools.com/howto/howto_css_cards.asp */
 .card {
     width: 585px;
     margin: 20px;
@@ -284,6 +286,7 @@ main {
 
 /* ---------------------------------------- OFFERS PAGE ---------------------------------------- */
 /* Mountain, Sea and City containers */
+/* Inspired from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax_percent */
 #mountain-section,
 #sea-section,
 #city-section {
@@ -553,6 +556,7 @@ textarea {
     box-shadow: 0 5px 5px rgba(58, 47, 47, 0.7);
 }
 
+/* Inspired from: Code institute */
 input[type="submit"] {
     background-color: #20A3A3;
     font-size: 20px;
