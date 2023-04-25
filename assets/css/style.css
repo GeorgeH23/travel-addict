@@ -440,6 +440,10 @@ https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_login */
     white-space: nowrap;
 }
 
+.close-modal:hover {
+    background-color: #a32020;
+}
+
 /* Copied "animatezoom" animation from:
 https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal4 */
 .animate-zoom {
